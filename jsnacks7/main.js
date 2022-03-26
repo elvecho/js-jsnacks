@@ -1,13 +1,10 @@
 let numeroUtente = parseInt(prompt("inserisci un numero"));
 console.log(numeroUtente);
 
-let numeroUtenteAlCubo = cubodeinumeri();
+let numeroUtenteAlCubo = cubodeinumeri(numeroUtente);
 console.log(numeroUtenteAlCubo);
 
- function cubodeinumeri(addendo1) {
-   let addendo1 = numeroUtente;
-   let numeroUtente = Math.pow(numeroUtente,3);
-   let risultato = numeroUtente;
+ function cubodeinumeri(num1) {
+   let risultato= num1**3;
      return risultato;
-     
  }
